@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Welcome-->
+        <!--DIU Flash Chat-->
         <scene sceneID="SAj-Rh-o9q">
             <objects>
                 <viewController storyboardIdentifier="welcomeVC" id="w26-XG-9cC" customClass="WelcomeViewController" customModule="Flash_Chat" customModuleProvider="target" sceneMemberID="viewController">
@@ -49,8 +49,8 @@
                                     <segue destination="qQg-wA-Esh" kind="push" identifier="goToRegistration" id="1Yf-oM-MEQ"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="wWy-sR-rfK">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="688"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="0" translatesAutoresizingMaskIntoConstraints="NO" id="wWy-sR-rfK">
+                                <rect key="frame" x="63" y="202" width="249" height="409"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -68,14 +68,14 @@
                             <constraint firstAttribute="trailing" secondItem="wWy-sR-rfK" secondAttribute="trailing" id="sXH-1w-woT"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Welcome" id="qIL-hP-GCy"/>
+                    <navigationItem key="navigationItem" title="DIU Flash Chat" id="qIL-hP-GCy"/>
                     <connections>
                         <segue destination="vXZ-lx-hvc" kind="push" identifier="goToChat" id="RuE-fI-2yI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d1I-xB-PqX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="235.19999999999999" y="10.794602698650676"/>
+            <point key="canvasLocation" x="234.40000000000001" y="10.344827586206897"/>
         </scene>
         <!--Register-->
         <scene sceneID="D59-Lz-QjT">
@@ -354,10 +354,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="background" width="853.33331298828125" height="632.66668701171875"/>
+        <image name="0" width="200" height="200"/>
         <image name="background1" width="1200" height="795"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="mOy-cb-hAN"/>
+        <segue reference="RuE-fI-2yI"/>
     </inferredMetricsTieBreakers>
 </document>
